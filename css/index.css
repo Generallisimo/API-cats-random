@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #EDEEF0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .img {
+    height: 400px;
+    width: 600px;
+  }
+  
+  .card {
+    max-width: 700px;
+    /* max-height: 400px; */
+    padding: 16px;
+    background-color: #ffffff;
+    margin: 16px;
+    border-radius: 10px;
+    /* по оси x потоп y и радиус размытия  */
+    box-shadow: 5px 5px 15px grey;
+  }
+  
+  .btn {
+    padding: 8px;
+  }
